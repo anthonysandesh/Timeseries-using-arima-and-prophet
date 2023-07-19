@@ -1,0 +1,95 @@
+"category","type","description"
+Status,carrier_event,Ethernet port carrier change
+Appliance status,failover_event,Primary uplink status change
+Client status,client_connectivity,Client connectivity status change
+Events dropped,events_dropped2,Events dropped
+Auth,splash_auth,Splash authentication
+Auth,ad_auth,Domain authentication
+Auth,ad_connect,Connected to Domain Controller
+Auth,ad_failure,Unable to connect to Domain Controller
+Auth,radius_mac_auth,RADIUS authentication
+Auth,radius_mab_timeout,RADIUS MAB timeout
+Auth,radius_mac_auth_failover,RADIUS authentication failover to Guest VLAN
+Auth,radius_dynamic_vlan_assignment,RADIUS dynamic VLAN assignment
+Auth,radius_invalid_vlan_name,RADIUS server returned an invalid VLAN name
+Auth,radius_server_attribute_mismatch,RADIUS authentication attribute mismatch
+DHCP,dhcp_lease,DHCP lease
+DHCP,dhcp_release,DHCP release
+DHCP,dhcp_nak,DHCP NAK
+DHCP,dhcp_problem,DHCP problem
+DHCP,multiple_dhcp_servers_detected,Multiple DHCP servers detected
+DHCP,dhcp_no_leases,No DHCP lease available
+DHCP,rogue_dhcp,Rogue DHCP server detected
+DHCP,dhcp_blocked,DHCP blocked
+DHCP,dai_blocked,DAI blocked
+DHCPv6,dhcp6pd_req_success,DHCPv6-PD Request successful
+DHCPv6,dhcp6pd_req_fail,DHCPv6-PD Request failure
+DHCPv6,dhcp6pd_reb_success,DHCPv6-PD Rebind successful
+DHCPv6,dhcp6pd_reb_fail,DHCPv6-PD Rebind failure
+DHCPv6,dhcp6pd_ren_success,DHCPv6-PD Renew successful
+DHCPv6,dhcp6pd_ren_fail,DHCPv6-PD Renew failure
+DHCPv6,dhcp6pd_rel_success,DHCPv6-PD Release successful
+DHCPv6,dhcp6pd_rel_fail,DHCPv6-PD Release failure
+DHCPv6,dhcp6pd_dec_success,DHCPv6-PD Decline successful
+DHCPv6,dhcp6pd_dec_fail,DHCPv6-PD Decline failure
+DHCPv6,dhcp6pd_renumber,DHCPv6-PD Renumber
+DHCPv6,dhcp6pd_no_more_leases,DHCPv6-PD No more leases
+DHCPv6,dhcp6na_req_success,DHCPv6-NA Request successful
+DHCPv6,dhcp6na_req_fail,DHCPv6-NA Request failure
+DHCPv6,dhcp6na_reb_success,DHCPv6-NA Rebind successful
+DHCPv6,dhcp6na_reb_fail,DHCPv6-NA Rebind failure
+DHCPv6,dhcp6na_ren_success,DHCPv6-NA Renew successful
+DHCPv6,dhcp6na_ren_fail,DHCPv6-NA Renew failure
+DHCPv6,dhcp6na_rel_success,DHCPv6-NA Release successful
+DHCPv6,dhcp6na_rel_fail,DHCPv6-NA Release failure
+DHCPv6,dhcp6na_dec_success,DHCPv6-NA Decline successful
+DHCPv6,dhcp6na_dec_fail,DHCPv6-NA Decline failure
+DHCPv6,dhcp6na_renumber,DHCPv6-NA Renumber
+DHCPv6,dhcp6na_no_more_leases,DHCPv6-NA No more leases
+IP conflict,ip_conflict,Client IP conflict
+IP conflict,ip6_conflict,IPv6 duplicate address detection
+IP conflict,martian_vlan,Source IP and/or VLAN mismatch
+IP conflict,martian_src,Internet martian
+Non-Meraki / Client VPN,vpn,Non-Meraki / Client VPN negotiation
+Non-Meraki / Client VPN,client_vpn_connect,VPN client connected
+Non-Meraki / Client VPN,client_vpn_disconnect,VPN client disconnected
+Non-Meraki / Client VPN,client_vpn_address_pool_empty,VPN client address pool empty
+Meraki VPN,vpn_connectivity_change,VPN tunnel connectivity change
+Meraki VPN,vpn_registry_change,VPN registry connectivity change
+Meraki VPN,vpn_proposals_sl2,VPN tunnel Proposals
+Meraki VPN,vpn_sl2,VPN tunnel
+Cellular,cellular_up,Cellular connection up
+Cellular,cellular_down,Cellular connection down
+VRRP,vrrp,VRRP transition
+VRRP,vrrp_state_change,VRRP transition
+VRRP,vrrp_vrid_collision,Virtual router collision
+Web caching,web_cache_stopped,Web cache stopped
+Web caching,web_cache_started,Web cache started
+Route tracking,route_connection_change,Route connection change
+Route tracking,network_test,Network test
+OSPF,ospf_neighbor_init,OSPF neighbor init
+OSPF,ospf_neighbor_full,OSPF neighbor up
+OSPF,ospf_neighbor_down,OSPF neighbor down
+OSPF,ospf_route_iface_overlap,OSPF route interface overlap
+OSPF,ospf_route_overflow,OSPF route table overflow
+BGP,bgp_received_notification,BGP received notification
+BGP,bgp_sent_notification,BGP sent notification
+BGP,bgp_session_established,BGP session established
+BGP,bgp_session_unestablished,BGP session no longer established
+AnyConnect VPN,anyconnect_vpn_address_pool_empty,AnyConnect VPN client address pool empty
+AnyConnect VPN,anyconnect_vpn_connect,AnyConnect VPN client connected
+AnyConnect VPN,anyconnect_vpn_disconnect,AnyConnect VPN client disconnected
+AnyConnect VPN,anyconnect_vpn_general,AnyConnect VPN general event
+AnyConnect VPN,anyconnect_vpn_general_error,AnyConnect VPN general error
+AnyConnect VPN,anyconnect_vpn_auth_success,AnyConnect VPN authentication success
+AnyConnect VPN,anyconnect_vpn_auth_failure,AnyConnect VPN authentication failure
+AnyConnect VPN,anyconnect_vpn_connection_success,AnyConnect VPN connection event
+AnyConnect VPN,anyconnect_vpn_connection_failure,AnyConnect VPN connection failure
+AnyConnect VPN,anyconnect_vpn_session_manager,AnyConnect VPN session event
+Network-Based Application Recognition,nbar_block,Layer 7 firewall rule
+Filtering,cf_block,Content filtering blocked URL
+Filtering,sf_url_block,Security blocked URL
+Filtering,sf_binary_block,Security blocked file
+Intrusion Detection,ids_start,Intrusion detection started
+Intrusion Detection,ids_error,Intrusion detection error
+Intrusion Detection,ids_update,Intrusion detection rules update
